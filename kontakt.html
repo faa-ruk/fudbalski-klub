@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Fudbalski Klub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Fudbalski Klub</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="nav">
+      <a href="index.html">Početna</a>
+      <a href="tim.html">Tim</a>
+      <a href="utakmice.html">Utakmice</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h1 class="section-title">Kontakt</h1>
+      <p>Imaš pitanje ili želiš da nam se pridružiš? Pošalji nam poruku.</p>
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Ime">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="message" rows="5" placeholder="Poruka"></textarea>
+        <p id="formMsg" class="form-msg"></p>
+        <button type="submit" class="btn">Pošalji</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Fudbalski Klub</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
