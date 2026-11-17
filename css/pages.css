@@ -40,3 +40,14 @@ nav a:hover { color: #facc15; }
 .btn:hover { background: #fde047; }
 
 footer { text-align: center; padding: 25px; background: #15803d; color: #fff; }
+
+@media (max-width: 768px) {
+  .navbar { padding: 15px 20px; flex-wrap: wrap; }
+  .menu-btn { display: block; }
+  nav { display: none; width: 100%; flex-direction: column; margin-top: 15px; }
+  nav.open { display: flex; }
+  nav a { margin: 0; padding: 10px 0; }
+  .section { padding: 40px 20px; }
+  .cards { grid-template-columns: 1fr; }
+  .table th, .table td { padding: 8px 6px; font-size: 0.85rem; }
+}
